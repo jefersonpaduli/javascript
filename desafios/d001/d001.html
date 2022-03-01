@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mensagens</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid grey;
+            background-color: rgba(211, 211, 211, 0.521);
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Desafio das Mensagens</h1>
+    <div id="b1" onclick="clique1()">
+       Botão 1 
+    </div>
+    <div id="b2" onclick="clique2()">
+        Botão 2
+    </div>
+    <div id="b3" onclick="clique3()">
+        Botão 3
+    </div>
+    <script>
+        function clique1(){
+            var c1 = window.document.getElementById('b1')
+            alert('Você clicou no 1º botão!')
+        }
+        function clique2(){
+            var c2 = window.document.getElementById('b2')
+            alert('Você clicou no 2º botão!')
+        }
+        function clique3(){
+            var c3 = window.document.getElementById('b3')
+            alert('Você clicou no 3º botão!')
+        }
+    </script>
 </body>
 </html>
